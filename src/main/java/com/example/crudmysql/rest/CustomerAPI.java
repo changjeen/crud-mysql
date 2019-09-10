@@ -14,7 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/customer")
-public class CustomerController {
+public class CustomerAPI {
     @Autowired
     CustomerService customerService;
 

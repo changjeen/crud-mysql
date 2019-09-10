@@ -13,7 +13,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("api/v1/member")
-public class MemberController {
+public class MemberAPI {
     @Autowired
     MemberService memberService;
 

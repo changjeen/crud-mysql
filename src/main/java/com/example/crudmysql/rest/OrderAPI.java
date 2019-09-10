@@ -10,7 +10,7 @@ import javax.validation.Valid;
 
 @RestController
 @RequestMapping("api/v1/order")
-public class OrderController {
+public class OrderAPI {
     @Autowired
     OrderService orderService;
 
